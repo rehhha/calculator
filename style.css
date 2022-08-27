@@ -1,0 +1,95 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+  /*#49be25*/
+}
+
+.results {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-size: 3em;
+  box-sizing: border-box;
+  width: 350px;
+  height: 80px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.grid {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 350px;
+  display: grid;
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+#zero {
+  grid-column: span 2;
+}
+
+.grid-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #49be25;
+  border-radius: 10px;
+  
+}
+
+.grid-button:hover {
+  cursor: pointer;
+}
